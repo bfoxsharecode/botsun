@@ -1079,7 +1079,7 @@ def background_task():
             print(error_msg)
             log_message(error_msg)
             time.sleep(reconnect_delay)
-            reconnect_delay = min(reconnect_delay * 2, 60)
+            reconnect_delay = min(reconnect_delay *1, 1)
 
 # === TELEGRAM UPDATE HANDLER ===
 def handle_telegram_updates():
