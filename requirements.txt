@@ -3,7 +3,6 @@ python-telegram-bot
 pyTelegramBotAPI
 websocket
 websocket-client
-sqlite3==3.50.3
 db-sqlite3==0.0.1
 datetime
 Flask
